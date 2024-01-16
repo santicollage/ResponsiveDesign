@@ -219,3 +219,93 @@ main {
   color:  var(--warm-black);
   font-weight: 300px;
 }
+/* main-product-detail */
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+.product-detail--batata-logo {
+  position: absolute;
+  top: -16px;
+  left: calc(50% - 30px);
+  width: 55px;
+  height: 30px;
+  background-image: url(./assets/imgs/logoSimple.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.product-detail--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.product-detail--title h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+.product-detail--title p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+.product-detail--card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 175px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.product-detail--card .icon-detail {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.product-detail--card .product--card-title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+.product-detail--card .product--card-body {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+.clock {
+  background-image: url(./assets/icons/clock.svg);
+}
+.eye {
+  background-image: url(./assets/icons/eye.svg);
+}
+.money {
+  background-image: url(./assets/icons/dollar.svg);
+}
+.check {
+  background-image: url(./assets/icons/check-circle.svg);
+}
